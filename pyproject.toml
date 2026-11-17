@@ -7,7 +7,17 @@ authors = [
     { name = "Karthik", email = "karthikarjun1@email.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "chromadb>=1.5.9",
+    "faiss-cpu>=1.16.0",
+    "langchain>=1.5.0",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.8.1",
+    "notebook>=7.6.5",
+    "pymupdf>=2.1",
+    "pypdf>=7.1.0",
+    "sentence-transformers>=6.3.0",
+]
 
 [project.scripts]
 my-ai = "my_ai:main"
